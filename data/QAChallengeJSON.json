@@ -1,0 +1,289 @@
+{
+    "result": {
+        "fmt": "1.3",
+        "pk": {
+            "id": 49961,
+            "version": 1,
+            "loginId": 0
+        },
+        "branch": {
+            "pk": {
+                "id": 49961,
+                "branchNo": 0
+            },
+            "name": "master",
+            "created": "2025-08-04T08:58:24.616Z",
+            "createdBy": "anand-ak"
+        },
+        "project": {
+            "id": 49961,
+            "name": "QAChallenge_HiringModule",
+            "type": "MOD",
+            "variant": "FULL",
+            "loginId": 841,
+            "created": "2025-08-04T08:58:24.616786059Z",
+            "createdBy": "anand-ak",
+            "lastChanged": "2025-08-04T08:58:24.617363191Z",
+            "description": "simple description",
+            "deleted": false,
+            "globalId": "fLuiW6BdR5hvwNnX-z74MyZSdNg"
+        },
+        "owner": "ECT",
+        "name": "QAChallengeHiringModule",
+        "label": "0.0.1-SNAPSHOT",
+        "rev": 11,
+        "hash": "QWe6SNd_A1l5dAo-HPnIgD2kOf4_ik0UlVsFE7RG5T0",
+        "committedBy": "anand-ak",
+        "committedDate": "2025-08-04T09:00:02.154Z",
+        "commitComment": "11",
+        "branchNo": 0,
+        "includes": [],
+        "settings": {
+            "resourceStatus": "COMMITTED",
+            "changedVersion": 1
+        },
+        "resources": {
+            "folders": [
+                {
+                    "changedVersion": 1,
+                    "resourceStatus": "COMMITTED",
+                    "created": "2025-08-04T08:58:39.515Z",
+                    "createdBy": "anand-ak",
+                    "lastChanged": "2025-08-04T08:58:41.502Z",
+                    "name": "SampleModel",
+                    "type": "pck",
+                    "$type": "Package",
+                    "$includedLevel": 0,
+                    "$displayName": "SampleModel",
+                    "$ref": "fld:pck/SampleModel",
+                    "$absoluteRef": "fld:ECT.QAChallengeHiringModule:pck/SampleModel",
+                    "$isVisible": true,
+                    "$isValid": true
+                }
+            ],
+            "entities": [
+                {
+                    "changedVersion": 1,
+                    "resourceStatus": "COMMITTED",
+                    "created": "2025-08-04T08:58:50.092Z",
+                    "createdBy": "anand-ak",
+                    "lastChanged": "2025-08-04T08:59:08.774Z",
+                    "name": "SampleStrucuture",
+                    "folder": {
+                        "ref": "fld:pck/SampleModel"
+                    },
+                    "fields": [
+                        {
+                            "name": "id",
+                            "type": {
+                                "dataClass": "SCALAR",
+                                "scalarType": "STRING"
+                            },
+                            "pk": true,
+                            "$type": "FieldDef",
+                            "$includedLevel": 0,
+                            "$ownerRef": "ent:SampleModel/SampleStrucuture",
+                            "$displayName": "SampleModel/SampleStrucuture/id",
+                            "$isVisible": true,
+                            "$autoPk": false
+                        },
+                        {
+                            "name": "name",
+                            "type": {
+                                "dataClass": "SCALAR",
+                                "scalarType": "STRING"
+                            },
+                            "$type": "FieldDef",
+                            "$includedLevel": 0,
+                            "$ownerRef": "ent:SampleModel/SampleStrucuture",
+                            "$displayName": "SampleModel/SampleStrucuture/name",
+                            "$isVisible": true,
+                            "$autoPk": false
+                        }
+                    ],
+                    "$type": "EntityDef",
+                    "$includedLevel": 0,
+                    "$folderRef": "fld:pck/SampleModel",
+                    "$folder": {
+                        "changedVersion": 1,
+                        "resourceStatus": "COMMITTED",
+                        "created": "2025-08-04T08:58:39.515Z",
+                        "createdBy": "anand-ak",
+                        "lastChanged": "2025-08-04T08:58:41.502Z",
+                        "name": "SampleModel",
+                        "type": "pck",
+                        "$type": "Package",
+                        "$includedLevel": 0,
+                        "$displayName": "SampleModel",
+                        "$ref": "fld:pck/SampleModel",
+                        "$absoluteRef": "fld:ECT.QAChallengeHiringModule:pck/SampleModel",
+                        "$isVisible": true,
+                        "$isValid": true
+                    },
+                    "$displayName": "SampleModel/SampleStrucuture",
+                    "$ref": "ent:SampleModel/SampleStrucuture",
+                    "$absoluteRef": "ent:ECT.QAChallengeHiringModule:SampleModel/SampleStrucuture",
+                    "$isVisible": true,
+                    "$isValid": true
+                }
+            ],
+            "enumerations": [
+                {
+                    "changedVersion": 1,
+                    "resourceStatus": "COMMITTED",
+                    "created": "2025-08-04T08:59:15.615Z",
+                    "createdBy": "anand-ak",
+                    "lastChanged": "2025-08-04T08:59:25.084Z",
+                    "name": "EnumSample",
+                    "folder": {
+                        "ref": "fld:pck/SampleModel"
+                    },
+                    "literals": [
+                        {
+                            "constant": "Munich"
+                        },
+                        {
+                            "constant": "Berlin"
+                        }
+                    ],
+                    "$type": "Enumeration",
+                    "$includedLevel": 0,
+                    "$folderRef": "fld:pck/SampleModel",
+                    "$folder": {
+                        "changedVersion": 1,
+                        "resourceStatus": "COMMITTED",
+                        "created": "2025-08-04T08:58:39.515Z",
+                        "createdBy": "anand-ak",
+                        "lastChanged": "2025-08-04T08:58:41.502Z",
+                        "name": "SampleModel",
+                        "type": "pck",
+                        "$type": "Package",
+                        "$includedLevel": 0,
+                        "$displayName": "SampleModel",
+                        "$ref": "fld:pck/SampleModel",
+                        "$absoluteRef": "fld:ECT.QAChallengeHiringModule:pck/SampleModel",
+                        "$isVisible": true,
+                        "$isValid": true
+                    },
+                    "$displayName": "SampleModel/EnumSample",
+                    "$ref": "enm:SampleModel/EnumSample",
+                    "$absoluteRef": "enm:ECT.QAChallengeHiringModule:SampleModel/EnumSample",
+                    "$isVisible": true,
+                    "$isValid": true
+                }
+            ],
+            "flows": [
+                {
+                    "changedVersion": 1,
+                    "resourceStatus": "COMMITTED",
+                    "created": "2025-08-04T08:59:33.636Z",
+                    "createdBy": "anand-ak",
+                    "lastChanged": "2025-08-04T08:59:45.253Z",
+                    "name": "ServerFlow",
+                    "isPrivate": true,
+                    "createdIn": "PRO",
+                    "type": "MAIN",
+                    "variant": "BACKEND",
+                    "input": [
+                        {
+                            "name": "Input1",
+                            "type": {
+                                "dataClass": "SCALAR",
+                                "scalarType": "STRING"
+                            }
+                        }
+                    ],
+                    "icon": {
+                        "id": 1,
+                        "name": "End",
+                        "source": "BASE",
+                        "base": "END",
+                        "isValid": true,
+                        "output": {
+                            "type": "END"
+                        }
+                    },
+                    "isValid": true,
+                    "$type": "Flow",
+                    "$includedLevel": 0,
+                    "$displayName": "ServerFlow",
+                    "$ref": "flw:ServerFlow",
+                    "$absoluteRef": "flw:ECT.QAChallengeHiringModule:ServerFlow",
+                    "$isVisible": true,
+                    "$isValid": true
+                }
+            ],
+            "fileFolders": [
+                {
+                    "changedVersion": 1,
+                    "resourceStatus": "COMMITTED",
+                    "created": "2025-08-04T08:59:52.274Z",
+                    "createdBy": "anand-ak",
+                    "lastChanged": "2025-08-04T08:59:55.520Z",
+                    "name": "VF1",
+                    "isCitizenToolEnabled": true,
+                    "location": "PRIVATE",
+                    "$type": "FileFolder",
+                    "$includedLevel": 0,
+                    "$displayName": "VF1",
+                    "$ref": "ffd:VF1",
+                    "$absoluteRef": "ffd:ECT.QAChallengeHiringModule:VF1",
+                    "$isVisible": true,
+                    "$isValid": true
+                }
+            ],
+            "files": [
+                {
+                    "changedVersion": 1,
+                    "resourceStatus": "COMMITTED",
+                    "created": "2025-08-04T08:58:24.887Z",
+                    "createdBy": "anand-ak",
+                    "lastChanged": "2025-08-04T08:58:24.887Z",
+                    "name": "Logo",
+                    "type": "IMAGE",
+                    "originalFileName": "SampleJPGImage_50kbmb.jpg",
+                    "internalFileName": "uNDlax7UglsZknl36qZeTsNvaxg.jpg",
+                    "mimeType": "image/jpeg",
+                    "imageType": "LOGO",
+                    "$type": "FileResource",
+                    "$includedLevel": 0,
+                    "$displayName": "Logo",
+                    "$ref": "fil:Logo",
+                    "$absoluteRef": "fil:ECT.QAChallengeHiringModule:Logo",
+                    "$isVisible": true,
+                    "$isValid": true
+                }
+            ],
+              
+          
+            "communicationApis": [],
+            "mappings": [],
+            "persistenceApis": [],
+            "persistenceInterceptors": [],
+            "mailTemplates": [],
+            "statistics": [],
+            "jobs": [],
+            "soaps": [],
+            "rests": [],
+            "sqls": [],
+            "configValues": [],
+            "securityProperties": [],
+            "userProfiles": [],
+            "dialogs": [],
+            "javascriptModules": [],
+            "pushApis": [],
+            "authProviders": [],
+            "authListeners": [],
+            "interfaces": [],
+            "interfaceImpls": [],
+            "telcoFiles": [],
+            "avps": [],
+            "avpMessageTemplates": [],
+            "avpGroupTemplates": [],
+            "localizations": [],
+            "dataSources": []
+        },
+        "$working": false,
+        "$label": "0.0.1-SNAPSHOT"
+    }
+}
