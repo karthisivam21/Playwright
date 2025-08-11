@@ -10,6 +10,11 @@
   "devDependencies": {
     "@playwright/test": "^1.54.2",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.2.0"
+    "@types/node": "^24.2.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^2.0.0"
+  },
+  "dependencies": {
+    "npm": "^11.5.2"
   }
 }
